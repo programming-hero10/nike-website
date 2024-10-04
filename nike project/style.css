@@ -1,0 +1,259 @@
+/* Black Ops One */
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One:regular);
+/* Black Ops One :end */
+/* Cabin */
+@import url(https://fonts.googleapis.com/css?family=Cabin:regular,500,600,700,italic,500italic,600italic,700italic);
+/* Cabin :end */
+/* Dosis */
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+/* Dosis :end */
+/* Roboto */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+/* Roboto :end */
+/* Pacifico */
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+/* Pacifico :end */
+/* Ballet */
+@import url(https://fonts.googleapis.com/css?family=Ballet:regular);
+/* Ballet :end */
+/* class font family */
+.b {
+  font-family: "Black Ops One", system-ui;
+}
+.c {
+  font-family: "Cabin", sans-serif;
+}
+.d {
+  font-family: "Dosis", sans-serif;
+}
+.r {
+  font-family: "Roboto", sans-serif;
+}
+.p {
+  font-family: "Pacifico", cursive;
+}
+.bl {
+  font-family: "Ballet", cursive;
+}
+/* class font family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #110101;
+  height: 100vh;
+  color: #eee;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+nav .logo img {
+  width: 142px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 20px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+}
+.hero-container .img img {
+  width: 859px;
+}
+.hero-container .text h1 {
+  font-size: 128px;
+  font-weight: lighter;
+}
+.hero-container .text h3 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.hero-container .text h4 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero-container .text p {
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.a {
+  background: #d9d9d9;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #121212;
+  border-radius: 36px;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 170px;
+  padding: 20px 150px;
+  background: url(images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #eee;
+  height: 100vh;
+}
+.hero-section .img img {
+  width: 642px;
+}
+.hero-section .text h1 {
+  font-size: 57px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.hero-section .text p {
+  margin-bottom: 50px;
+}
+.see-shoe {
+  background: #050230;
+  padding: 20px 50px;
+  color: #fff;
+}
+.see-shoe h1 {
+  text-align: center;
+  font-size: 62px;
+  font-weight: bolder;
+}
+.see-shoe .images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 50px;
+}
+.see-shoe .images img {
+  width: 224px;
+}
+footer {
+  background: #0009bb90;
+  padding: 50px 20px;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.div2 {
+  text-align: center;
+}
+.div2 p {
+  padding: 0 800px;
+}
+footer {
+  text-align: center;
+}
+footer video {
+  width: 50%;
+  border-radius: 20px;
+  border: 5px #050230 solid;
+}
+footer .r {
+  font-size: 50px;
+  margin: 50px;
+}
+.footer-video {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+footer a{
+  font-size: 35px;
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid transparent;
+  padding: 20px;
+  transition: 0.5s ease;
+}
+footer a:hover{
+  border: 2px solid #000;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  nav ul {
+    gap: 20px;
+  }
+  .hero-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+  }
+  .hero-container .text h1 {
+    font-size: 35px;
+  }
+  .hero-container .text h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .hero-container .text h4 {
+    font-size: 30px;
+  }
+  .hero-container .img img {
+    width: 100%;
+  }
+  .hero-section {
+    flex-direction: column;
+    gap: 0;
+    padding: 150px 20px;
+  }
+  .hero-section .text h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .hero-section .img img {
+    width: 100%;
+  }
+  .see-shoe .images img {
+    width: 120px;
+  }
+  .see-shoe h1 {
+    font-size: 35px;
+  }
+  .see-shoe .images {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 50px;
+  }
+  footer .div {
+    gap: 50px;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .div2 p {
+    padding: 0;
+  }
+  footer .r {
+    font-size: 35px;
+  }
+  footer video{
+    width: 100%;
+  }
+
+}
